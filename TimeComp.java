@@ -12,7 +12,7 @@ public class TimeComp {
 		Scanner userInput = new Scanner(System.in);
 		
 		//Ask User to input seconds to convert to hours/mins/sec
-		System.out.print("Enter the total number of seconds you would like to be convert to HH:MM:SS: ");
+		System.out.print("Enter the total number of seconds you would like to convert to HH:MM:SS: ");
 		//Read user input for seconds
 		long seconds = userInput.nextLong();
 		
