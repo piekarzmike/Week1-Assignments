@@ -13,13 +13,13 @@ quizScore1, quizScore2, quizScore3, testScore1, testScore2, quizScoreAvg, and te
 
 	public static void main(String[] args) {
 		
-		double quizScore1 = 87.3d;
-		double quizScore2 = 92.4d;
-		double quizScore3 = 89.8d;
-		double testScore1 = 94.5d;
-		double testScore2 = 97.3d;
-		double quizScoreAvg = (quizScore1 + quizScore2 + quizScore3)/3d;
-		double testScoreAvg = (testScore1 + testScore2)/2d;
+		float quizScore1 = 87.3f;
+		float quizScore2 = 92.4f;
+		float quizScore3 = 89.8f;
+		float testScore1 = 94.5f;
+		float testScore2 = 97.3f;
+		float quizScoreAvg = (quizScore1 + quizScore2 + quizScore3)/3f;
+		float testScoreAvg = (testScore1 + testScore2)/2f;
 	
 		System.out.println("Average Quiz Score is: " + quizScoreAvg);
 		System.out.println("Average Test Score is: " + testScoreAvg);
